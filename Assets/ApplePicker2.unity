@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 99733510}
   - component: {fileID: 99733511}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AppleTree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ Transform:
   m_GameObject: {fileID: 99733509}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalPosition: {x: 0, y: 12, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -165,6 +165,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cff62734d8aae49841e86b099c4aba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  applePrefab: {fileID: 3354928985857299896, guid: 9f10e1c5653d27d478a04130abade7dc, type: 3}
+  speed: 1
+  leftAndRightEdge: 20
+  chanceToChangeDirections: 0.1
+  secondsBetweenAppleDrops: 1
 --- !u!1 &493435131
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,7 +182,7 @@ GameObject:
   - component: {fileID: 493435135}
   - component: {fileID: 493435134}
   - component: {fileID: 493435133}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +382,7 @@ GameObject:
   - component: {fileID: 702722798}
   - component: {fileID: 702722797}
   - component: {fileID: 702722796}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +589,7 @@ GameObject:
   - component: {fileID: 934044905}
   - component: {fileID: 934044904}
   - component: {fileID: 934044903}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
